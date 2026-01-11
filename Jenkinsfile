@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('github validation new'){
           steps{
-                 git url: 'https://github.com/akshu20791/addressbook-cicd-project'
+                 git url: 'https://github.com/ravinderji/addressbook-cicd-project'
           }
         }
         stage('compiling the code'){
